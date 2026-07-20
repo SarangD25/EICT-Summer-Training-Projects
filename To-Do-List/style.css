@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#task-input:focus {
+    border-color: #4a90e2;
+}
+
+#add-btn {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #357abd;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background-color: #4a90e2;
+    color: white;
+    border-color: #4a90e2;
+}
+
+#task-list {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.task-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+#clear-completed-btn {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    text-decoration: underline;
+}
