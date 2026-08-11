@@ -4,12 +4,12 @@ A simple Python-based resume analyzer that extracts text from PDF resumes, compa
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 This project is designed as a straightforward, beginner-friendly Python full-stack application built using **Streamlit**, **pypdf**, and **spaCy**. It helps job seekers evaluate how well their resume matches a target job description by analyzing technical skills and providing rule-based recommendations.
 
 ---
 
-## ✨ Features
+##  Features
 - **PDF Resume Parsing**: Extracts selectable text page-by-page from uploaded PDF resumes using `pypdf`.
 - **NLP Text Cleaning**: Preprocesses text and cleans tokens using `spaCy`.
 - **Skill Extraction & Matching**: Detects programming languages, frameworks, tools, and soft skills in both the resume and job description.
@@ -20,7 +20,7 @@ This project is designed as a straightforward, beginner-friendly Python full-sta
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language**: Python 3.10+
 - **Frontend / UI**: Streamlit
 - **PDF Parsing**: pypdf
@@ -30,7 +30,7 @@ This project is designed as a straightforward, beginner-friendly Python full-sta
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ```
   Uploaded Resume (PDF)                 Job Description (Text)
@@ -57,7 +57,7 @@ This project is designed as a straightforward, beginner-friendly Python full-sta
                    Streamlit UI Presentation
 ```
 
-### 🎓 Explanation for Viva / Presentation
+###  Explanation for Viva / Presentation
 1. **PDF Text Extraction**: Uses `pypdf.PdfReader` to extract raw text content from each page of the uploaded PDF file.
 2. **Text Cleaning (spaCy)**: Tokenizes words, removes stop words (like "the", "is", "at") and punctuation to normalize the text.
 3. **Skill Matching**: Checks the normalized text against a predefined skills dictionary (`SKILLS_DB`) using regex matching.
@@ -67,7 +67,7 @@ This project is designed as a straightforward, beginner-friendly Python full-sta
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone or Download Repository
 Navigate to the project root directory:
@@ -97,7 +97,7 @@ GEMINI_API_KEY=your_actual_api_key_here
 
 ---
 
-## 💻 How to Run
+##  How to Run
 
 Launch the Streamlit web app:
 ```bash
@@ -108,7 +108,7 @@ Open your web browser at `http://localhost:8501`.
 
 ---
 
-## 📝 Example Usage
+##  Example Usage
 1. Click **"Browse files"** and select `sample_data/sample_resume.pdf` (or your own PDF resume).
 2. Enter a Target Job Title, e.g., `Python Developer`.
 3. Paste a Job Description containing skills like:
@@ -118,7 +118,7 @@ Open your web browser at `http://localhost:8501`.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Expand `SKILLS_DB` to include specialized domain skills (e.g. Finance, Healthcare).
 - Support DOCX file format parsing alongside PDF.
 - Add chart visualization for skill category distributions.
