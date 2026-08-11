@@ -1,0 +1,6 @@
+streamlit
+pypdf
+spacy
+python-dotenv
+requests
+reportlab
