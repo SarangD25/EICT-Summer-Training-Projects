@@ -6,4 +6,5 @@ This repository contains web development projects created during the EICT Summer
 - **[To-Do List](./02-To-Do-List)**: A feature-rich To-Do List application built with HTML, CSS, and JavaScript.
 - **[Login and Registration](./03-Login-and-Registration)**: A full-stack user authentication system built with Node.js, Express, MongoDB, and EJS.
 - **[AI Resume Analyzer](./04-AI-Resume-Analyzer)**: An AI-powered resume analyzer web application built with Python, Streamlit, spaCy, and Google Gemini AI.
+- **[Student Management System](./05-Student-Management-System)**: A beginner-friendly full-stack Student Management System (YouthMatrix) built with React, Node.js, Express, and MySQL.
 
