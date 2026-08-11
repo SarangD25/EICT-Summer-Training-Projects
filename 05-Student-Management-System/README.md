@@ -25,7 +25,7 @@ It lets an admin/faculty member manage students, batches, courses, attendance an
 - Lucide React
 - Tailwind CSS
 
-## Simple project flow
+## Project flow
 
 ```text
 React + HTML + CSS + JavaScript
@@ -135,39 +135,6 @@ On the first run, the server adds sample students, batches, courses, attendance 
 ├── vite.config.js
 ├── package.json
 └── README.md
-```
-
-## Beginner-level concepts used
-
-This project is intentionally kept fairly simple so the main code can be understood and explained in a college viva.
-
-Some concepts used are:
-
-- React components
-- `useState` and `useEffect`
-- Props
-- Forms
-- `fetch()` API calls
-- Express routes
-- GET / POST / PUT / DELETE APIs
-- Basic SQL queries
-- MySQL tables
-- CRUD operations
-- Searching and filtering
-- Attendance percentage calculation
-- Grade calculation
-- Dashboard data using Recharts
-
-## Database tables
-
-```text
-users
-batches
-courses
-students
-attendance
-grades
-activity_logs
 ```
 
 ## Notes
